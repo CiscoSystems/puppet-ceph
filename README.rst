@@ -5,6 +5,8 @@ puppet-ceph
 About
 =====
 
+Demo of github
+
 |BuildStatus|_
 
 .. |BuildStatus| image:: https://travis-ci.org/enovance/puppet-ceph.png?branch=master
