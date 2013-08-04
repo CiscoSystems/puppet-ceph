@@ -35,9 +35,9 @@ class ceph::conf (
   include 'ceph::package'
 
   if $auth_type == 'cephx' {
-    $mode = '0660'
+    $mode = '0644'
   } else {
-    $mode = '0664'
+    $mode = '0644'
   }
 
   if $osd_journal {
